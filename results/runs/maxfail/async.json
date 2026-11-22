@@ -1,0 +1,6 @@
+{
+  "delayMs": 200,
+  "onTestEndCalls": 11,
+  "finishedAtOnEnd": 10,
+  "finishedAtOnExit": 10
+}

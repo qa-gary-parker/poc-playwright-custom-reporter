@@ -1,0 +1,10 @@
+{
+  "name": "smart-maxfail",
+  "scenario": "smart",
+  "args": [
+    "--max-failures=1",
+    "--workers=1"
+  ],
+  "exitCode": 1,
+  "wallMs": 3850
+}

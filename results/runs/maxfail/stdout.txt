@@ -1,0 +1,13 @@
+Running 13 tests with 1 workers
+passed   shows the heading
+passed   lists three items
+passed   shows the total
+passed   places an order
+passed   applies a coupon
+passed   ignores a bad coupon
+passed   toggles gift wrap
+passed   logs the item count
+failed   always fails: wrong total
+failed   always fails: wrong total (retry 1)
+failed   always fails: wrong total (retry 2)
+passed 8, failed 1, flaky 0, skipped 4: failed

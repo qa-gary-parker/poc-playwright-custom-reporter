@@ -1,0 +1,28 @@
+Running 13 tests with 4 workers
+passed   lists three items
+passed   shows the heading
+passed   shows the total
+passed   ignores a bad coupon
+passed   applies a coupon
+passed   places an order
+passed   logs the item count
+passed   toggles gift wrap
+failed   always fails: wrong total
+failed   flaky: passes on retry
+failed   flaky: fails on the first attempt
+failed   always fails: missing button
+passed   flaky: passes on retry (retry 1)
+skipped  skipped: saved carts
+passed   flaky: fails on the first attempt (retry 1)
+failed   always fails: wrong total (retry 1)
+failed   always fails: missing button (retry 1)
+failed   always fails: wrong total (retry 2)
+failed   always fails: missing button (retry 2)
+passed 8, failed 2, flaky 2, skipped 1: failed
+
+   Report data: 0.0 MB, inline in the HTML
+
+📊 Smart Report: ./results/runs/smart/smart-report.html
+   Serve with trace viewer: npx playwright-smart-reporter-serve "./results/runs/smart/smart-report.html"
+   Or open directly: open "./results/runs/smart/smart-report.html"
+   JSON data: ./results/runs/smart/smart-report-data.json

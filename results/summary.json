@@ -1,0 +1,448 @@
+{
+  "core": {
+    "core-1": {
+      "workers": 4,
+      "status": "failed",
+      "testsInSuite": 13,
+      "outcomes": {
+        "expected": 8,
+        "unexpected": 2,
+        "flaky": 2,
+        "skipped": 1
+      },
+      "testsWithNoAttempt": [],
+      "hookCalls": {
+        "onBegin": 1,
+        "onTestBegin": 19,
+        "onStepBegin": 255,
+        "onStepEnd": 255,
+        "onTestEnd": 19,
+        "onStdOut": 1,
+        "onEnd": 1
+      },
+      "onTestEndByStatus": {
+        "passed": 10,
+        "failed": 8,
+        "skipped": 1
+      },
+      "naiveFailureCount": 8,
+      "testsReachingOnTestEnd": 13,
+      "onTestEndOrder": [
+        "shows the heading#0",
+        "lists three items#0",
+        "shows the total#0",
+        "places an order#0",
+        "ignores a bad coupon#0",
+        "applies a coupon#0",
+        "logs the item count#0",
+        "toggles gift wrap#0",
+        "always fails: missing button#0",
+        "always fails: wrong total#0",
+        "flaky: fails on the first attempt#0",
+        "flaky: passes on retry#0",
+        "flaky: fails on the first attempt#1",
+        "skipped: saved carts#0",
+        "flaky: passes on retry#1",
+        "always fails: missing button#1",
+        "always fails: wrong total#1",
+        "always fails: missing button#2",
+        "always fails: wrong total#2"
+      ],
+      "async": {
+        "delayMs": 200,
+        "onTestEndCalls": 19,
+        "finishedAtOnEnd": 18,
+        "finishedAtOnExit": 18
+      },
+      "run": {
+        "name": "core-1",
+        "scenario": "core",
+        "args": [],
+        "exitCode": 1,
+        "wallMs": 3989
+      }
+    },
+    "core-2": {
+      "workers": 4,
+      "status": "failed",
+      "testsInSuite": 13,
+      "outcomes": {
+        "expected": 8,
+        "unexpected": 2,
+        "flaky": 2,
+        "skipped": 1
+      },
+      "testsWithNoAttempt": [],
+      "hookCalls": {
+        "onBegin": 1,
+        "onTestBegin": 19,
+        "onStepBegin": 255,
+        "onStepEnd": 255,
+        "onTestEnd": 19,
+        "onStdOut": 1,
+        "onEnd": 1
+      },
+      "onTestEndByStatus": {
+        "passed": 10,
+        "failed": 8,
+        "skipped": 1
+      },
+      "naiveFailureCount": 8,
+      "testsReachingOnTestEnd": 13,
+      "onTestEndOrder": [
+        "shows the total#0",
+        "shows the heading#0",
+        "lists three items#0",
+        "places an order#0",
+        "applies a coupon#0",
+        "ignores a bad coupon#0",
+        "toggles gift wrap#0",
+        "logs the item count#0",
+        "always fails: missing button#0",
+        "always fails: wrong total#0",
+        "flaky: fails on the first attempt#0",
+        "flaky: passes on retry#0",
+        "flaky: fails on the first attempt#1",
+        "skipped: saved carts#0",
+        "flaky: passes on retry#1",
+        "always fails: missing button#1",
+        "always fails: wrong total#1",
+        "always fails: missing button#2",
+        "always fails: wrong total#2"
+      ],
+      "async": {
+        "delayMs": 200,
+        "onTestEndCalls": 19,
+        "finishedAtOnEnd": 18,
+        "finishedAtOnExit": 18
+      },
+      "run": {
+        "name": "core-2",
+        "scenario": "core",
+        "args": [],
+        "exitCode": 1,
+        "wallMs": 3673
+      }
+    },
+    "core-3": {
+      "workers": 4,
+      "status": "failed",
+      "testsInSuite": 13,
+      "outcomes": {
+        "expected": 8,
+        "unexpected": 2,
+        "flaky": 2,
+        "skipped": 1
+      },
+      "testsWithNoAttempt": [],
+      "hookCalls": {
+        "onBegin": 1,
+        "onTestBegin": 19,
+        "onStepBegin": 255,
+        "onStepEnd": 255,
+        "onTestEnd": 19,
+        "onStdOut": 1,
+        "onEnd": 1
+      },
+      "onTestEndByStatus": {
+        "passed": 10,
+        "failed": 8,
+        "skipped": 1
+      },
+      "naiveFailureCount": 8,
+      "testsReachingOnTestEnd": 13,
+      "onTestEndOrder": [
+        "shows the total#0",
+        "shows the heading#0",
+        "lists three items#0",
+        "places an order#0",
+        "applies a coupon#0",
+        "ignores a bad coupon#0",
+        "logs the item count#0",
+        "toggles gift wrap#0",
+        "always fails: wrong total#0",
+        "always fails: missing button#0",
+        "flaky: fails on the first attempt#0",
+        "flaky: passes on retry#0",
+        "flaky: fails on the first attempt#1",
+        "skipped: saved carts#0",
+        "flaky: passes on retry#1",
+        "always fails: missing button#1",
+        "always fails: wrong total#1",
+        "always fails: missing button#2",
+        "always fails: wrong total#2"
+      ],
+      "async": {
+        "delayMs": 200,
+        "onTestEndCalls": 19,
+        "finishedAtOnEnd": 18,
+        "finishedAtOnExit": 18
+      },
+      "run": {
+        "name": "core-3",
+        "scenario": "core",
+        "args": [],
+        "exitCode": 1,
+        "wallMs": 3471
+      }
+    },
+    "core-4": {
+      "workers": 4,
+      "status": "failed",
+      "testsInSuite": 13,
+      "outcomes": {
+        "expected": 8,
+        "unexpected": 2,
+        "flaky": 2,
+        "skipped": 1
+      },
+      "testsWithNoAttempt": [],
+      "hookCalls": {
+        "onBegin": 1,
+        "onTestBegin": 19,
+        "onStepBegin": 255,
+        "onStepEnd": 255,
+        "onTestEnd": 19,
+        "onStdOut": 1,
+        "onEnd": 1
+      },
+      "onTestEndByStatus": {
+        "passed": 10,
+        "failed": 8,
+        "skipped": 1
+      },
+      "naiveFailureCount": 8,
+      "testsReachingOnTestEnd": 13,
+      "onTestEndOrder": [
+        "shows the total#0",
+        "lists three items#0",
+        "shows the heading#0",
+        "ignores a bad coupon#0",
+        "applies a coupon#0",
+        "toggles gift wrap#0",
+        "logs the item count#0",
+        "places an order#0",
+        "always fails: wrong total#0",
+        "always fails: missing button#0",
+        "flaky: fails on the first attempt#0",
+        "flaky: passes on retry#0",
+        "flaky: fails on the first attempt#1",
+        "skipped: saved carts#0",
+        "flaky: passes on retry#1",
+        "always fails: wrong total#1",
+        "always fails: missing button#1",
+        "always fails: wrong total#2",
+        "always fails: missing button#2"
+      ],
+      "async": {
+        "delayMs": 200,
+        "onTestEndCalls": 19,
+        "finishedAtOnEnd": 18,
+        "finishedAtOnExit": 18
+      },
+      "run": {
+        "name": "core-4",
+        "scenario": "core",
+        "args": [],
+        "exitCode": 1,
+        "wallMs": 3410
+      }
+    },
+    "core-5": {
+      "workers": 4,
+      "status": "failed",
+      "testsInSuite": 13,
+      "outcomes": {
+        "expected": 8,
+        "unexpected": 2,
+        "flaky": 2,
+        "skipped": 1
+      },
+      "testsWithNoAttempt": [],
+      "hookCalls": {
+        "onBegin": 1,
+        "onTestBegin": 19,
+        "onStepBegin": 255,
+        "onStepEnd": 255,
+        "onTestEnd": 19,
+        "onStdOut": 1,
+        "onEnd": 1
+      },
+      "onTestEndByStatus": {
+        "passed": 10,
+        "failed": 8,
+        "skipped": 1
+      },
+      "naiveFailureCount": 8,
+      "testsReachingOnTestEnd": 13,
+      "onTestEndOrder": [
+        "lists three items#0",
+        "shows the total#0",
+        "shows the heading#0",
+        "applies a coupon#0",
+        "ignores a bad coupon#0",
+        "logs the item count#0",
+        "toggles gift wrap#0",
+        "places an order#0",
+        "always fails: wrong total#0",
+        "always fails: missing button#0",
+        "flaky: fails on the first attempt#0",
+        "flaky: passes on retry#0",
+        "flaky: fails on the first attempt#1",
+        "skipped: saved carts#0",
+        "flaky: passes on retry#1",
+        "always fails: wrong total#1",
+        "always fails: missing button#1",
+        "always fails: wrong total#2",
+        "always fails: missing button#2"
+      ],
+      "async": {
+        "delayMs": 200,
+        "onTestEndCalls": 19,
+        "finishedAtOnEnd": 18,
+        "finishedAtOnExit": 18
+      },
+      "run": {
+        "name": "core-5",
+        "scenario": "core",
+        "args": [],
+        "exitCode": 1,
+        "wallMs": 3480
+      }
+    }
+  },
+  "coreAcrossRuns": {
+    "runs": 5,
+    "distinctOnTestEndOrders": 5,
+    "naiveFailureCounts": [
+      8,
+      8,
+      8,
+      8,
+      8
+    ],
+    "asyncUnfinishedAtOnExit": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "maxfail": {
+    "workers": 1,
+    "status": "failed",
+    "testsInSuite": 13,
+    "outcomes": {
+      "expected": 8,
+      "unexpected": 1,
+      "skipped": 4
+    },
+    "testsWithNoAttempt": [
+      "always fails: missing button",
+      "flaky: fails on the first attempt",
+      "flaky: passes on retry",
+      "skipped: saved carts"
+    ],
+    "hookCalls": {
+      "onBegin": 1,
+      "onTestBegin": 11,
+      "onStepBegin": 149,
+      "onStepEnd": 149,
+      "onTestEnd": 11,
+      "onStdOut": 1,
+      "onError": 1,
+      "onEnd": 1
+    },
+    "onTestEndByStatus": {
+      "passed": 8,
+      "failed": 3
+    },
+    "naiveFailureCount": 3,
+    "testsReachingOnTestEnd": 9,
+    "onTestEndOrder": [
+      "shows the heading#0",
+      "lists three items#0",
+      "shows the total#0",
+      "places an order#0",
+      "applies a coupon#0",
+      "ignores a bad coupon#0",
+      "toggles gift wrap#0",
+      "logs the item count#0",
+      "always fails: wrong total#0",
+      "always fails: wrong total#1",
+      "always fails: wrong total#2"
+    ],
+    "async": {
+      "delayMs": 200,
+      "onTestEndCalls": 11,
+      "finishedAtOnEnd": 10,
+      "finishedAtOnExit": 10
+    },
+    "run": {
+      "name": "maxfail",
+      "scenario": "core",
+      "args": [
+        "--max-failures=1",
+        "--workers=1"
+      ],
+      "exitCode": 1,
+      "wallMs": 3711
+    }
+  },
+  "smart": {
+    "summary": {
+      "total": 13,
+      "passed": 10,
+      "failed": 2,
+      "skipped": 1,
+      "flaky": 2,
+      "duration": 3434,
+      "passRate": 83,
+      "stabilityGrade": "A"
+    },
+    "testsListed": 13,
+    "statuses": {
+      "passed": 10,
+      "failed": 2,
+      "skipped": 1
+    },
+    "failureClusters": 2,
+    "run": {
+      "name": "smart",
+      "scenario": "smart",
+      "args": [],
+      "exitCode": 1,
+      "wallMs": 3968
+    }
+  },
+  "smartMaxfail": {
+    "summary": {
+      "total": 13,
+      "passed": 8,
+      "failed": 1,
+      "skipped": 4,
+      "flaky": 0,
+      "duration": 3320,
+      "passRate": 89,
+      "stabilityGrade": "A"
+    },
+    "testsListed": 13,
+    "statuses": {
+      "passed": 8,
+      "failed": 1,
+      "skipped": 4
+    },
+    "failureClusters": 1,
+    "run": {
+      "name": "smart-maxfail",
+      "scenario": "smart",
+      "args": [
+        "--max-failures=1",
+        "--workers=1"
+      ],
+      "exitCode": 1,
+      "wallMs": 3850
+    }
+  }
+}

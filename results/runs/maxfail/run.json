@@ -1,0 +1,10 @@
+{
+  "name": "maxfail",
+  "scenario": "core",
+  "args": [
+    "--max-failures=1",
+    "--workers=1"
+  ],
+  "exitCode": 1,
+  "wallMs": 3711
+}

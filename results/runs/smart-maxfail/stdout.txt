@@ -1,0 +1,20 @@
+Running 13 tests with 1 workers
+passed   shows the heading
+passed   lists three items
+passed   shows the total
+passed   places an order
+passed   applies a coupon
+passed   ignores a bad coupon
+passed   toggles gift wrap
+passed   logs the item count
+failed   always fails: wrong total
+failed   always fails: wrong total (retry 1)
+failed   always fails: wrong total (retry 2)
+passed 8, failed 1, flaky 0, skipped 4: failed
+
+   Report data: 0.0 MB, inline in the HTML
+
+📊 Smart Report: ./results/runs/smart-maxfail/smart-report.html
+   Serve with trace viewer: npx playwright-smart-reporter-serve "./results/runs/smart-maxfail/smart-report.html"
+   Or open directly: open "./results/runs/smart-maxfail/smart-report.html"
+   JSON data: ./results/runs/smart-maxfail/smart-report-data.json

@@ -1,0 +1,3391 @@
+{
+  "workers": 4,
+  "status": "failed",
+  "tests": [
+    {
+      "title": "shows the heading",
+      "outcome": "expected",
+      "attempts": 1
+    },
+    {
+      "title": "lists three items",
+      "outcome": "expected",
+      "attempts": 1
+    },
+    {
+      "title": "shows the total",
+      "outcome": "expected",
+      "attempts": 1
+    },
+    {
+      "title": "places an order",
+      "outcome": "expected",
+      "attempts": 1
+    },
+    {
+      "title": "applies a coupon",
+      "outcome": "expected",
+      "attempts": 1
+    },
+    {
+      "title": "ignores a bad coupon",
+      "outcome": "expected",
+      "attempts": 1
+    },
+    {
+      "title": "toggles gift wrap",
+      "outcome": "expected",
+      "attempts": 1
+    },
+    {
+      "title": "logs the item count",
+      "outcome": "expected",
+      "attempts": 1
+    },
+    {
+      "title": "always fails: wrong total",
+      "outcome": "unexpected",
+      "attempts": 3
+    },
+    {
+      "title": "always fails: missing button",
+      "outcome": "unexpected",
+      "attempts": 3
+    },
+    {
+      "title": "flaky: fails on the first attempt",
+      "outcome": "flaky",
+      "attempts": 2
+    },
+    {
+      "title": "flaky: passes on retry",
+      "outcome": "flaky",
+      "attempts": 2
+    },
+    {
+      "title": "skipped: saved carts",
+      "outcome": "skipped",
+      "attempts": 1
+    }
+  ],
+  "events": [
+    {
+      "hook": "onBegin"
+    },
+    {
+      "hook": "onTestBegin",
+      "title": "places an order",
+      "retry": 0,
+      "workerIndex": 3
+    },
+    {
+      "hook": "onTestBegin",
+      "title": "lists three items",
+      "retry": 0,
+      "workerIndex": 1
+    },
+    {
+      "hook": "onTestBegin",
+      "title": "shows the total",
+      "retry": 0,
+      "workerIndex": 2
+    },
+    {
+      "hook": "onTestBegin",
+      "title": "shows the heading",
+      "retry": 0,
+      "workerIndex": 0
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "places an order",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "places an order",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "shows the total",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "shows the total",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "shows the heading",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "lists three items",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "shows the heading",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "lists three items",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "places an order",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "places an order",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "shows the total",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "shows the heading",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "lists three items",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "shows the total",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "lists three items",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "shows the heading",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "shows the heading",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "shows the heading",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "shows the heading",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "shows the total",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "shows the total",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "shows the total",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "shows the heading",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "shows the total",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "places an order",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "places an order",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "lists three items",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "lists three items",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "lists three items",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "places an order",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "lists three items",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "places an order",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "lists three items",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "shows the heading",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "lists three items",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "lists three items",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "shows the total",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "lists three items",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "shows the heading",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "shows the heading",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "shows the total",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "shows the total",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "shows the total",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "places an order",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "shows the heading",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "places an order",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "places an order",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "places an order",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "shows the total",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "shows the total",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "places an order",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "places an order",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "places an order",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "shows the total",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "lists three items",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "lists three items",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "shows the heading",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "shows the heading",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "lists three items",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "shows the heading",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "places an order",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "places an order",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "shows the heading",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "shows the heading",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "lists three items",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "lists three items",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "shows the total",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "shows the total",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "places an order",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "shows the heading",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "shows the total",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "lists three items",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "places an order",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "shows the heading",
+      "retry": 0,
+      "category": "expect"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "lists three items",
+      "retry": 0,
+      "category": "expect"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "shows the total",
+      "retry": 0,
+      "category": "expect"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "shows the total",
+      "retry": 0,
+      "category": "expect"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "lists three items",
+      "retry": 0,
+      "category": "expect"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "shows the total",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "lists three items",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "shows the total",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "shows the total",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "shows the total",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "lists three items",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "shows the heading",
+      "retry": 0,
+      "category": "expect"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "lists three items",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "lists three items",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "shows the heading",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "shows the heading",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "shows the heading",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "shows the heading",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "shows the total",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "lists three items",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "shows the heading",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "shows the total",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "shows the total",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "lists three items",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "lists three items",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "shows the heading",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "shows the heading",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "lists three items",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "shows the total",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onTestEnd",
+      "title": "lists three items",
+      "retry": 0,
+      "status": "passed",
+      "workerIndex": 1
+    },
+    {
+      "hook": "onTestEnd",
+      "title": "shows the total",
+      "retry": 0,
+      "status": "passed",
+      "workerIndex": 2
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "shows the heading",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onTestEnd",
+      "title": "shows the heading",
+      "retry": 0,
+      "status": "passed",
+      "workerIndex": 0
+    },
+    {
+      "hook": "onTestBegin",
+      "title": "applies a coupon",
+      "retry": 0,
+      "workerIndex": 2
+    },
+    {
+      "hook": "onTestBegin",
+      "title": "ignores a bad coupon",
+      "retry": 0,
+      "workerIndex": 1
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "applies a coupon",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "applies a coupon",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "ignores a bad coupon",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "ignores a bad coupon",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onTestBegin",
+      "title": "toggles gift wrap",
+      "retry": 0,
+      "workerIndex": 0
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "toggles gift wrap",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "toggles gift wrap",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "ignores a bad coupon",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "applies a coupon",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "ignores a bad coupon",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "applies a coupon",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "toggles gift wrap",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "toggles gift wrap",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "applies a coupon",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "ignores a bad coupon",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "applies a coupon",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "toggles gift wrap",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "ignores a bad coupon",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "applies a coupon",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "ignores a bad coupon",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "toggles gift wrap",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "applies a coupon",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "ignores a bad coupon",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "toggles gift wrap",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "toggles gift wrap",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "applies a coupon",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "applies a coupon",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "ignores a bad coupon",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "ignores a bad coupon",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "toggles gift wrap",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "toggles gift wrap",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "applies a coupon",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "ignores a bad coupon",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "toggles gift wrap",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "applies a coupon",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "toggles gift wrap",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "toggles gift wrap",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "applies a coupon",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "ignores a bad coupon",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "ignores a bad coupon",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "applies a coupon",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "toggles gift wrap",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "ignores a bad coupon",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "toggles gift wrap",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "ignores a bad coupon",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "applies a coupon",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "applies a coupon",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "ignores a bad coupon",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "ignores a bad coupon",
+      "retry": 0,
+      "category": "expect"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "applies a coupon",
+      "retry": 0,
+      "category": "expect"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "applies a coupon",
+      "retry": 0,
+      "category": "expect"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "applies a coupon",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "ignores a bad coupon",
+      "retry": 0,
+      "category": "expect"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "ignores a bad coupon",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "applies a coupon",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "applies a coupon",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "applies a coupon",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "ignores a bad coupon",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "ignores a bad coupon",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "ignores a bad coupon",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "ignores a bad coupon",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "applies a coupon",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "applies a coupon",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "applies a coupon",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "ignores a bad coupon",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "ignores a bad coupon",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "applies a coupon",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onTestEnd",
+      "title": "applies a coupon",
+      "retry": 0,
+      "status": "passed",
+      "workerIndex": 2
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "ignores a bad coupon",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onTestEnd",
+      "title": "ignores a bad coupon",
+      "retry": 0,
+      "status": "passed",
+      "workerIndex": 1
+    },
+    {
+      "hook": "onTestBegin",
+      "title": "logs the item count",
+      "retry": 0,
+      "workerIndex": 2
+    },
+    {
+      "hook": "onTestBegin",
+      "title": "always fails: wrong total",
+      "retry": 0,
+      "workerIndex": 1
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "logs the item count",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "logs the item count",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "logs the item count",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "logs the item count",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "logs the item count",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "logs the item count",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "logs the item count",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "logs the item count",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "logs the item count",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "logs the item count",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "logs the item count",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "logs the item count",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "logs the item count",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "logs the item count",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "logs the item count",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 0,
+      "category": "expect"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "logs the item count",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStdOut",
+      "title": "logs the item count"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "logs the item count",
+      "retry": 0,
+      "category": "expect"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "logs the item count",
+      "retry": 0,
+      "category": "expect"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "logs the item count",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "logs the item count",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "logs the item count",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "logs the item count",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "logs the item count",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "logs the item count",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "logs the item count",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "logs the item count",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onTestEnd",
+      "title": "logs the item count",
+      "retry": 0,
+      "status": "passed",
+      "workerIndex": 2
+    },
+    {
+      "hook": "onTestBegin",
+      "title": "always fails: missing button",
+      "retry": 0,
+      "workerIndex": 2
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "toggles gift wrap",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "toggles gift wrap",
+      "retry": 0,
+      "category": "expect"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "toggles gift wrap",
+      "retry": 0,
+      "category": "expect"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "toggles gift wrap",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "toggles gift wrap",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "toggles gift wrap",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "toggles gift wrap",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "toggles gift wrap",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "toggles gift wrap",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "toggles gift wrap",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "toggles gift wrap",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onTestEnd",
+      "title": "toggles gift wrap",
+      "retry": 0,
+      "status": "passed",
+      "workerIndex": 0
+    },
+    {
+      "hook": "onTestBegin",
+      "title": "flaky: fails on the first attempt",
+      "retry": 0,
+      "workerIndex": 0
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: fails on the first attempt",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: fails on the first attempt",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: fails on the first attempt",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: fails on the first attempt",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: fails on the first attempt",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: fails on the first attempt",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: fails on the first attempt",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: fails on the first attempt",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 0,
+      "category": "expect"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: fails on the first attempt",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: fails on the first attempt",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: fails on the first attempt",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "places an order",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "places an order",
+      "retry": 0,
+      "category": "expect"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: fails on the first attempt",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: fails on the first attempt",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: fails on the first attempt",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: fails on the first attempt",
+      "retry": 0,
+      "category": "expect"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "places an order",
+      "retry": 0,
+      "category": "expect"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "places an order",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "places an order",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "places an order",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "places an order",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "places an order",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "places an order",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "places an order",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "places an order",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onTestEnd",
+      "title": "places an order",
+      "retry": 0,
+      "status": "passed",
+      "workerIndex": 3
+    },
+    {
+      "hook": "onTestBegin",
+      "title": "flaky: passes on retry",
+      "retry": 0,
+      "workerIndex": 3
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: passes on retry",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: passes on retry",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: passes on retry",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: passes on retry",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: passes on retry",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: passes on retry",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: passes on retry",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: passes on retry",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: passes on retry",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: passes on retry",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: passes on retry",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: passes on retry",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: passes on retry",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: passes on retry",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: passes on retry",
+      "retry": 0,
+      "category": "expect"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 0,
+      "category": "expect"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onTestEnd",
+      "title": "always fails: wrong total",
+      "retry": 0,
+      "status": "failed",
+      "workerIndex": 1
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 0,
+      "category": "expect"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: fails on the first attempt",
+      "retry": 0,
+      "category": "expect"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: fails on the first attempt",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: fails on the first attempt",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: fails on the first attempt",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: fails on the first attempt",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onTestEnd",
+      "title": "always fails: missing button",
+      "retry": 0,
+      "status": "failed",
+      "workerIndex": 2
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: fails on the first attempt",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: fails on the first attempt",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: fails on the first attempt",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: fails on the first attempt",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: fails on the first attempt",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: fails on the first attempt",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: fails on the first attempt",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: fails on the first attempt",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onTestEnd",
+      "title": "flaky: fails on the first attempt",
+      "retry": 0,
+      "status": "failed",
+      "workerIndex": 0
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: passes on retry",
+      "retry": 0,
+      "category": "expect"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: passes on retry",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: passes on retry",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: passes on retry",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: passes on retry",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: passes on retry",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: passes on retry",
+      "retry": 0,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: passes on retry",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: passes on retry",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: passes on retry",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: passes on retry",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: passes on retry",
+      "retry": 0,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: passes on retry",
+      "retry": 0,
+      "category": "hook"
+    },
+    {
+      "hook": "onTestEnd",
+      "title": "flaky: passes on retry",
+      "retry": 0,
+      "status": "failed",
+      "workerIndex": 3
+    },
+    {
+      "hook": "onTestBegin",
+      "title": "always fails: wrong total",
+      "retry": 1,
+      "workerIndex": 4
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 1,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 1,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onTestBegin",
+      "title": "always fails: missing button",
+      "retry": 1,
+      "workerIndex": 5
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 1,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 1,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onTestBegin",
+      "title": "flaky: fails on the first attempt",
+      "retry": 1,
+      "workerIndex": 6
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: fails on the first attempt",
+      "retry": 1,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: fails on the first attempt",
+      "retry": 1,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: fails on the first attempt",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: fails on the first attempt",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onTestBegin",
+      "title": "flaky: passes on retry",
+      "retry": 1,
+      "workerIndex": 7
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: passes on retry",
+      "retry": 1,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: passes on retry",
+      "retry": 1,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: passes on retry",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: passes on retry",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 1,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 1,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 1,
+      "category": "expect"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: fails on the first attempt",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: fails on the first attempt",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: fails on the first attempt",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: fails on the first attempt",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: fails on the first attempt",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: fails on the first attempt",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: fails on the first attempt",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: fails on the first attempt",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 1,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 1,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 1,
+      "category": "expect"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: fails on the first attempt",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: fails on the first attempt",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: fails on the first attempt",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: fails on the first attempt",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: fails on the first attempt",
+      "retry": 1,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: fails on the first attempt",
+      "retry": 1,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: passes on retry",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: passes on retry",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: passes on retry",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: passes on retry",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: fails on the first attempt",
+      "retry": 1,
+      "category": "expect"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: passes on retry",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: passes on retry",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: passes on retry",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: passes on retry",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: fails on the first attempt",
+      "retry": 1,
+      "category": "expect"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: fails on the first attempt",
+      "retry": 1,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: fails on the first attempt",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: fails on the first attempt",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: fails on the first attempt",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: fails on the first attempt",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: fails on the first attempt",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: fails on the first attempt",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: fails on the first attempt",
+      "retry": 1,
+      "category": "hook"
+    },
+    {
+      "hook": "onTestEnd",
+      "title": "flaky: fails on the first attempt",
+      "retry": 1,
+      "status": "passed",
+      "workerIndex": 6
+    },
+    {
+      "hook": "onTestBegin",
+      "title": "skipped: saved carts",
+      "retry": 0,
+      "workerIndex": -1
+    },
+    {
+      "hook": "onTestEnd",
+      "title": "skipped: saved carts",
+      "retry": 0,
+      "status": "skipped",
+      "workerIndex": -1
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: passes on retry",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: passes on retry",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: passes on retry",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: passes on retry",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: passes on retry",
+      "retry": 1,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: passes on retry",
+      "retry": 1,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: passes on retry",
+      "retry": 1,
+      "category": "expect"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: passes on retry",
+      "retry": 1,
+      "category": "expect"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: passes on retry",
+      "retry": 1,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: passes on retry",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: passes on retry",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: passes on retry",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "flaky: passes on retry",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: passes on retry",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: passes on retry",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "flaky: passes on retry",
+      "retry": 1,
+      "category": "hook"
+    },
+    {
+      "hook": "onTestEnd",
+      "title": "flaky: passes on retry",
+      "retry": 1,
+      "status": "passed",
+      "workerIndex": 7
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 1,
+      "category": "expect"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 1,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 1,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 1,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 1,
+      "category": "expect"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 1,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 1,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 1,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 1,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 1,
+      "category": "hook"
+    },
+    {
+      "hook": "onTestEnd",
+      "title": "always fails: wrong total",
+      "retry": 1,
+      "status": "failed",
+      "workerIndex": 4
+    },
+    {
+      "hook": "onTestBegin",
+      "title": "always fails: wrong total",
+      "retry": 2,
+      "workerIndex": 6
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 2,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 2,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 2,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 2,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 2,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 2,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 2,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 2,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 1,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 1,
+      "category": "hook"
+    },
+    {
+      "hook": "onTestEnd",
+      "title": "always fails: missing button",
+      "retry": 1,
+      "status": "failed",
+      "workerIndex": 5
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 2,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 2,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 2,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 2,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 2,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 2,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 2,
+      "category": "expect"
+    },
+    {
+      "hook": "onTestBegin",
+      "title": "always fails: missing button",
+      "retry": 2,
+      "workerIndex": 8
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 2,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 2,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 2,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 2,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 2,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 2,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 2,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 2,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 2,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 2,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 2,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 2,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 2,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 2,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 2,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 2,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 2,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 2,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 2,
+      "category": "expect"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 2,
+      "category": "expect"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 2,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 2,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 2,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 2,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 2,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 2,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 2,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 2,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 2,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: wrong total",
+      "retry": 2,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 2,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: wrong total",
+      "retry": 2,
+      "category": "hook"
+    },
+    {
+      "hook": "onTestEnd",
+      "title": "always fails: wrong total",
+      "retry": 2,
+      "status": "failed",
+      "workerIndex": 6
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 2,
+      "category": "expect"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 2,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 2,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 2,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 2,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 2,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 2,
+      "category": "pw:api"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 2,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 2,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 2,
+      "category": "hook"
+    },
+    {
+      "hook": "onStepBegin",
+      "title": "always fails: missing button",
+      "retry": 2,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 2,
+      "category": "fixture"
+    },
+    {
+      "hook": "onStepEnd",
+      "title": "always fails: missing button",
+      "retry": 2,
+      "category": "hook"
+    },
+    {
+      "hook": "onTestEnd",
+      "title": "always fails: missing button",
+      "retry": 2,
+      "status": "failed",
+      "workerIndex": 8
+    },
+    {
+      "hook": "onEnd",
+      "status": "failed"
+    }
+  ]
+}

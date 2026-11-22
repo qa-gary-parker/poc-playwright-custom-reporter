@@ -1,0 +1,16 @@
+{
+  "name": "poc-playwright-custom-reporter",
+  "version": "1.0.0",
+  "description": "A minimal custom Playwright reporter, three reporter API traps measured, and the same run through playwright-smart-reporter",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "test": "playwright test",
+    "measure": "node scripts/measure.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.1",
+    "playwright-smart-reporter": "4.0.1"
+  }
+}

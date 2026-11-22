@@ -1,0 +1,21 @@
+Running 13 tests with 4 workers
+passed   lists three items
+passed   shows the total
+passed   shows the heading
+passed   applies a coupon
+passed   ignores a bad coupon
+passed   logs the item count
+passed   toggles gift wrap
+passed   places an order
+failed   always fails: wrong total
+failed   always fails: missing button
+failed   flaky: fails on the first attempt
+failed   flaky: passes on retry
+passed   flaky: fails on the first attempt (retry 1)
+skipped  skipped: saved carts
+passed   flaky: passes on retry (retry 1)
+failed   always fails: wrong total (retry 1)
+failed   always fails: missing button (retry 1)
+failed   always fails: wrong total (retry 2)
+failed   always fails: missing button (retry 2)
+passed 8, failed 2, flaky 2, skipped 1: failed
