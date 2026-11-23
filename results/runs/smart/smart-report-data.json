@@ -1,0 +1,455 @@
+{
+  "metadata": {
+    "generatedAt": "2026-11-22T15:06:11.738Z",
+    "reporterVersion": "4.0.1",
+    "rootDir": "./tests"
+  },
+  "summary": {
+    "total": 13,
+    "passed": 10,
+    "failed": 2,
+    "skipped": 1,
+    "flaky": 2,
+    "duration": 3434,
+    "passRate": 83,
+    "stabilityGrade": "A"
+  },
+  "tests": [
+    {
+      "testId": "cart.spec.ts::lists three items",
+      "title": "lists three items",
+      "file": "cart.spec.ts",
+      "status": "passed",
+      "duration": 108,
+      "retry": 0,
+      "outcome": "expected",
+      "stabilityScore": {
+        "overall": 100,
+        "grade": "A"
+      },
+      "performanceTrend": "→ Baseline",
+      "suite": "cart.spec.ts",
+      "browser": "chromium",
+      "line": 29,
+      "column": 1
+    },
+    {
+      "testId": "cart.spec.ts::shows the heading",
+      "title": "shows the heading",
+      "file": "cart.spec.ts",
+      "status": "passed",
+      "duration": 108,
+      "retry": 0,
+      "outcome": "expected",
+      "stabilityScore": {
+        "overall": 100,
+        "grade": "A"
+      },
+      "performanceTrend": "→ Baseline",
+      "suite": "cart.spec.ts",
+      "browser": "chromium",
+      "line": 25,
+      "column": 1
+    },
+    {
+      "testId": "cart.spec.ts::shows the total",
+      "title": "shows the total",
+      "file": "cart.spec.ts",
+      "status": "passed",
+      "duration": 109,
+      "retry": 0,
+      "outcome": "expected",
+      "stabilityScore": {
+        "overall": 100,
+        "grade": "A"
+      },
+      "performanceTrend": "→ Baseline",
+      "suite": "cart.spec.ts",
+      "browser": "chromium",
+      "line": 33,
+      "column": 1
+    },
+    {
+      "testId": "cart.spec.ts::ignores a bad coupon",
+      "title": "ignores a bad coupon",
+      "file": "cart.spec.ts",
+      "status": "passed",
+      "duration": 82,
+      "retry": 0,
+      "outcome": "expected",
+      "stabilityScore": {
+        "overall": 100,
+        "grade": "A"
+      },
+      "performanceTrend": "→ Baseline",
+      "suite": "cart.spec.ts",
+      "browser": "chromium",
+      "line": 47,
+      "column": 1
+    },
+    {
+      "testId": "cart.spec.ts::applies a coupon",
+      "title": "applies a coupon",
+      "file": "cart.spec.ts",
+      "status": "passed",
+      "duration": 83,
+      "retry": 0,
+      "outcome": "expected",
+      "stabilityScore": {
+        "overall": 100,
+        "grade": "A"
+      },
+      "performanceTrend": "→ Baseline",
+      "suite": "cart.spec.ts",
+      "browser": "chromium",
+      "line": 42,
+      "column": 1
+    },
+    {
+      "testId": "cart.spec.ts::places an order",
+      "title": "places an order",
+      "file": "cart.spec.ts",
+      "status": "passed",
+      "duration": 253,
+      "retry": 0,
+      "outcome": "expected",
+      "stabilityScore": {
+        "overall": 100,
+        "grade": "A"
+      },
+      "performanceTrend": "→ Baseline",
+      "suite": "cart.spec.ts",
+      "browser": "chromium",
+      "line": 37,
+      "column": 1
+    },
+    {
+      "testId": "cart.spec.ts::logs the item count",
+      "title": "logs the item count",
+      "file": "cart.spec.ts",
+      "status": "passed",
+      "duration": 60,
+      "retry": 0,
+      "outcome": "expected",
+      "stabilityScore": {
+        "overall": 100,
+        "grade": "A"
+      },
+      "performanceTrend": "→ Baseline",
+      "suite": "cart.spec.ts",
+      "browser": "chromium",
+      "line": 57,
+      "column": 1
+    },
+    {
+      "testId": "cart.spec.ts::toggles gift wrap",
+      "title": "toggles gift wrap",
+      "file": "cart.spec.ts",
+      "status": "passed",
+      "duration": 163,
+      "retry": 0,
+      "outcome": "expected",
+      "stabilityScore": {
+        "overall": 100,
+        "grade": "A"
+      },
+      "performanceTrend": "→ Baseline",
+      "suite": "cart.spec.ts",
+      "browser": "chromium",
+      "line": 52,
+      "column": 1
+    },
+    {
+      "testId": "cart.spec.ts::always fails: wrong total",
+      "title": "always fails: wrong total",
+      "file": "cart.spec.ts",
+      "status": "failed",
+      "duration": 546,
+      "error": "Error: expect(locator).toHaveText(expected) failed\n\nLocator:  locator('#total')\nExpected: \"Total: £60\"\nReceived: \"Total: £50\"\nTimeout:  500ms\n\nCall log:\n  - Expect \"toHaveText\" locator('#total') with timeout 500ms\n  - waiting for locator('#total')\n    6 × locator resolved to <p id=\"total\">Total: £50</p>\n      - unexpected value \"Total: £50\"\n\n    at ./tests/cart.spec.ts:63:40",
+      "retry": 2,
+      "outcome": "unexpected",
+      "stabilityScore": {
+        "overall": 76,
+        "grade": "C"
+      },
+      "performanceTrend": "→ Baseline",
+      "suite": "cart.spec.ts",
+      "browser": "chromium",
+      "timeline": {
+        "duration": 550,
+        "lanes": {
+          "steps": [
+            {
+              "title": "Create context",
+              "start": 3,
+              "end": 5,
+              "category": "pw:api"
+            },
+            {
+              "title": "Create page",
+              "start": 5,
+              "end": 35,
+              "category": "pw:api"
+            },
+            {
+              "title": "Set content",
+              "start": 35,
+              "end": 44,
+              "category": "pw:api"
+            },
+            {
+              "title": "Expect \"toHaveText\"",
+              "start": 45,
+              "end": 547,
+              "category": "expect",
+              "failed": true
+            },
+            {
+              "title": "Close context",
+              "start": 549,
+              "end": 550,
+              "category": "pw:api"
+            }
+          ],
+          "network": [],
+          "console": []
+        }
+      },
+      "line": 62,
+      "column": 1,
+      "errorLocation": {
+        "file": "cart.spec.ts",
+        "column": 40,
+        "line": 63
+      }
+    },
+    {
+      "testId": "cart.spec.ts::flaky: passes on retry",
+      "title": "flaky: passes on retry",
+      "file": "cart.spec.ts",
+      "status": "passed",
+      "duration": 184,
+      "retry": 1,
+      "outcome": "flaky",
+      "stabilityScore": {
+        "overall": 96,
+        "grade": "A"
+      },
+      "performanceTrend": "→ Baseline",
+      "suite": "cart.spec.ts",
+      "browser": "chromium",
+      "line": 74,
+      "column": 1
+    },
+    {
+      "testId": "cart.spec.ts::flaky: fails on the first attempt",
+      "title": "flaky: fails on the first attempt",
+      "file": "cart.spec.ts",
+      "status": "passed",
+      "duration": 184,
+      "retry": 1,
+      "outcome": "flaky",
+      "stabilityScore": {
+        "overall": 96,
+        "grade": "A"
+      },
+      "performanceTrend": "→ Baseline",
+      "suite": "cart.spec.ts",
+      "browser": "chromium",
+      "line": 70,
+      "column": 1
+    },
+    {
+      "testId": "cart.spec.ts::always fails: missing button",
+      "title": "always fails: missing button",
+      "file": "cart.spec.ts",
+      "status": "failed",
+      "duration": 562,
+      "error": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('button', { name: 'Pay now' })\nExpected: visible\nTimeout: 500ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" getByRole('button', { name: 'Pay now' }) with timeout 500ms\n  - waiting for getByRole('button', { name: 'Pay now' })\n\n    at ./tests/cart.spec.ts:67:63",
+      "retry": 2,
+      "outcome": "unexpected",
+      "stabilityScore": {
+        "overall": 76,
+        "grade": "C"
+      },
+      "performanceTrend": "→ Baseline",
+      "suite": "cart.spec.ts",
+      "browser": "chromium",
+      "timeline": {
+        "duration": 717,
+        "lanes": {
+          "steps": [
+            {
+              "title": "Launch browser",
+              "start": 19,
+              "end": 153,
+              "category": "pw:api"
+            },
+            {
+              "title": "Create context",
+              "start": 154,
+              "end": 157,
+              "category": "pw:api"
+            },
+            {
+              "title": "Create page",
+              "start": 158,
+              "end": 190,
+              "category": "pw:api"
+            },
+            {
+              "title": "Set content",
+              "start": 190,
+              "end": 198,
+              "category": "pw:api"
+            },
+            {
+              "title": "Expect \"toBeVisible\"",
+              "start": 201,
+              "end": 707,
+              "category": "expect",
+              "failed": true
+            },
+            {
+              "title": "Close context",
+              "start": 714,
+              "end": 717,
+              "category": "pw:api"
+            }
+          ],
+          "network": [],
+          "console": []
+        }
+      },
+      "line": 66,
+      "column": 1,
+      "errorLocation": {
+        "file": "cart.spec.ts",
+        "column": 63,
+        "line": 67
+      }
+    },
+    {
+      "testId": "cart.spec.ts::skipped: saved carts",
+      "title": "skipped: saved carts",
+      "file": "cart.spec.ts",
+      "status": "skipped",
+      "duration": 0,
+      "retry": 0,
+      "outcome": "skipped",
+      "stabilityScore": {
+        "overall": 93,
+        "grade": "A"
+      },
+      "performanceTrend": "→ Skipped",
+      "suite": "cart.spec.ts",
+      "browser": "chromium",
+      "line": 78,
+      "column": 6
+    }
+  ],
+  "failureClusters": [
+    {
+      "id": "dcb77da24ad0193d",
+      "errorType": "toHaveText on locator('#total') at cart.spec.ts:63",
+      "count": 1,
+      "testIds": [
+        "cart.spec.ts::always fails: wrong total"
+      ]
+    },
+    {
+      "id": "40d3e67c30b06cba",
+      "errorType": "toBeVisible on getByRole('button', { name: 'Pay now' }) at cart.spec.ts:67",
+      "count": 1,
+      "testIds": [
+        "cart.spec.ts::always fails: missing button"
+      ]
+    }
+  ],
+  "history": {
+    "runCount": 0,
+    "runs": [],
+    "summaries": []
+  },
+  "efficiency": {
+    "retryWaste": 4069,
+    "retryWasteByTest": [
+      {
+        "testId": "cart.spec.ts::always fails: missing button",
+        "waste": 1421
+      },
+      {
+        "testId": "cart.spec.ts::always fails: wrong total",
+        "waste": 1257
+      },
+      {
+        "testId": "cart.spec.ts::flaky: fails on the first attempt",
+        "waste": 727
+      },
+      {
+        "testId": "cart.spec.ts::flaky: passes on retry",
+        "waste": 664
+      }
+    ],
+    "retryWasteTrend": [
+      {
+        "runId": "run-1795359968304",
+        "retryWaste": 4069
+      }
+    ],
+    "testTime": 6511,
+    "longTail": [
+      {
+        "percent": 5,
+        "tests": 1,
+        "time": 1983,
+        "share": 0.305,
+        "testIds": [
+          "cart.spec.ts::always fails: missing button"
+        ]
+      },
+      {
+        "percent": 10,
+        "tests": 2,
+        "time": 3786,
+        "share": 0.581,
+        "testIds": [
+          "cart.spec.ts::always fails: missing button",
+          "cart.spec.ts::always fails: wrong total"
+        ]
+      }
+    ],
+    "setupGap": 199,
+    "workers": {
+      "span": 3036,
+      "utilisation": 0.536,
+      "slots": [
+        {
+          "slot": 0,
+          "attempts": 6,
+          "busy": 1723,
+          "idle": 1313
+        },
+        {
+          "slot": 1,
+          "attempts": 4,
+          "busy": 1448,
+          "idle": 1588
+        },
+        {
+          "slot": 2,
+          "attempts": 5,
+          "busy": 1666,
+          "idle": 1370
+        },
+        {
+          "slot": 3,
+          "attempts": 3,
+          "busy": 1674,
+          "idle": 1362
+        }
+      ]
+    }
+  },
+  "environmentInsights": []
+}

@@ -26,7 +26,7 @@ Limits: one seeded suite of 13 tests on one machine. The async result depends on
 - `reporters/probe-reporter.ts`: records every hook call to `events.json`.
 - `reporters/async-reporter.ts`: an async `onTestEnd` with a 200 ms step; writes `async.json` from `onExit`.
 - `playwright.config.ts`: picks the reporters from `SCENARIO` (`minimal`, `core`, `smart`).
-- `scripts/measure.mjs`: runs 5 `core` runs, 1 `core` run with `--max-failures=1 --workers=1`, and the 2 `smart` runs. Raw output per run in `results/runs/<run>/`. Local paths in the raw files are replaced with `.`. The smart-reporter HTML report and history are not kept.
+- `scripts/measure.mjs`: runs 5 `core` runs, 1 `core` run with `--max-failures=1 --workers=1`, and the 2 `smart` runs. Raw output per run in `results/runs/<run>/`. Local paths in the raw files are replaced with `.`. The smart-reporter HTML report and history are not kept; its JSON export is kept as `results/runs/smart*/smart-report-data.json`.
 - `scripts/summarize.mjs`: builds `results/summary.json` from the raw files.
 - `results/env.json`: Node, Playwright and smart-reporter versions, OS and CPU count of the measured run.
 

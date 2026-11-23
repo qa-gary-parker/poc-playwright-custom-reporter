@@ -1,0 +1,370 @@
+{
+  "metadata": {
+    "generatedAt": "2026-11-22T15:06:15.591Z",
+    "reporterVersion": "4.0.1",
+    "rootDir": "./tests"
+  },
+  "summary": {
+    "total": 13,
+    "passed": 8,
+    "failed": 1,
+    "skipped": 4,
+    "flaky": 0,
+    "duration": 3320,
+    "passRate": 89,
+    "stabilityGrade": "A"
+  },
+  "tests": [
+    {
+      "testId": "cart.spec.ts::shows the heading",
+      "title": "shows the heading",
+      "file": "cart.spec.ts",
+      "status": "passed",
+      "duration": 67,
+      "retry": 0,
+      "outcome": "expected",
+      "stabilityScore": {
+        "overall": 100,
+        "grade": "A"
+      },
+      "performanceTrend": "→ Baseline",
+      "suite": "cart.spec.ts",
+      "browser": "chromium",
+      "line": 25,
+      "column": 1
+    },
+    {
+      "testId": "cart.spec.ts::lists three items",
+      "title": "lists three items",
+      "file": "cart.spec.ts",
+      "status": "passed",
+      "duration": 53,
+      "retry": 0,
+      "outcome": "expected",
+      "stabilityScore": {
+        "overall": 100,
+        "grade": "A"
+      },
+      "performanceTrend": "→ Baseline",
+      "suite": "cart.spec.ts",
+      "browser": "chromium",
+      "line": 29,
+      "column": 1
+    },
+    {
+      "testId": "cart.spec.ts::shows the total",
+      "title": "shows the total",
+      "file": "cart.spec.ts",
+      "status": "passed",
+      "duration": 53,
+      "retry": 0,
+      "outcome": "expected",
+      "stabilityScore": {
+        "overall": 100,
+        "grade": "A"
+      },
+      "performanceTrend": "→ Baseline",
+      "suite": "cart.spec.ts",
+      "browser": "chromium",
+      "line": 33,
+      "column": 1
+    },
+    {
+      "testId": "cart.spec.ts::places an order",
+      "title": "places an order",
+      "file": "cart.spec.ts",
+      "status": "passed",
+      "duration": 149,
+      "retry": 0,
+      "outcome": "expected",
+      "stabilityScore": {
+        "overall": 100,
+        "grade": "A"
+      },
+      "performanceTrend": "→ Baseline",
+      "suite": "cart.spec.ts",
+      "browser": "chromium",
+      "line": 37,
+      "column": 1
+    },
+    {
+      "testId": "cart.spec.ts::applies a coupon",
+      "title": "applies a coupon",
+      "file": "cart.spec.ts",
+      "status": "passed",
+      "duration": 54,
+      "retry": 0,
+      "outcome": "expected",
+      "stabilityScore": {
+        "overall": 100,
+        "grade": "A"
+      },
+      "performanceTrend": "→ Baseline",
+      "suite": "cart.spec.ts",
+      "browser": "chromium",
+      "line": 42,
+      "column": 1
+    },
+    {
+      "testId": "cart.spec.ts::ignores a bad coupon",
+      "title": "ignores a bad coupon",
+      "file": "cart.spec.ts",
+      "status": "passed",
+      "duration": 58,
+      "retry": 0,
+      "outcome": "expected",
+      "stabilityScore": {
+        "overall": 100,
+        "grade": "A"
+      },
+      "performanceTrend": "→ Baseline",
+      "suite": "cart.spec.ts",
+      "browser": "chromium",
+      "line": 47,
+      "column": 1
+    },
+    {
+      "testId": "cart.spec.ts::toggles gift wrap",
+      "title": "toggles gift wrap",
+      "file": "cart.spec.ts",
+      "status": "passed",
+      "duration": 168,
+      "retry": 0,
+      "outcome": "expected",
+      "stabilityScore": {
+        "overall": 100,
+        "grade": "A"
+      },
+      "performanceTrend": "→ Baseline",
+      "suite": "cart.spec.ts",
+      "browser": "chromium",
+      "line": 52,
+      "column": 1
+    },
+    {
+      "testId": "cart.spec.ts::logs the item count",
+      "title": "logs the item count",
+      "file": "cart.spec.ts",
+      "status": "passed",
+      "duration": 50,
+      "retry": 0,
+      "outcome": "expected",
+      "stabilityScore": {
+        "overall": 100,
+        "grade": "A"
+      },
+      "performanceTrend": "→ Baseline",
+      "suite": "cart.spec.ts",
+      "browser": "chromium",
+      "line": 57,
+      "column": 1
+    },
+    {
+      "testId": "cart.spec.ts::always fails: wrong total",
+      "title": "always fails: wrong total",
+      "file": "cart.spec.ts",
+      "status": "failed",
+      "duration": 564,
+      "error": "Error: expect(locator).toHaveText(expected) failed\n\nLocator:  locator('#total')\nExpected: \"Total: £60\"\nReceived: \"Total: £50\"\nTimeout:  500ms\n\nCall log:\n  - Expect \"toHaveText\" locator('#total') with timeout 500ms\n  - waiting for locator('#total')\n    6 × locator resolved to <p id=\"total\">Total: £50</p>\n      - unexpected value \"Total: £50\"\n\n    at ./tests/cart.spec.ts:63:40",
+      "retry": 2,
+      "outcome": "unexpected",
+      "stabilityScore": {
+        "overall": 76,
+        "grade": "C"
+      },
+      "performanceTrend": "→ Baseline",
+      "suite": "cart.spec.ts",
+      "browser": "chromium",
+      "timeline": {
+        "duration": 655,
+        "lanes": {
+          "steps": [
+            {
+              "title": "Launch browser",
+              "start": 16,
+              "end": 89,
+              "category": "pw:api"
+            },
+            {
+              "title": "Create context",
+              "start": 90,
+              "end": 93,
+              "category": "pw:api"
+            },
+            {
+              "title": "Create page",
+              "start": 94,
+              "end": 127,
+              "category": "pw:api"
+            },
+            {
+              "title": "Set content",
+              "start": 127,
+              "end": 136,
+              "category": "pw:api"
+            },
+            {
+              "title": "Expect \"toHaveText\"",
+              "start": 139,
+              "end": 646,
+              "category": "expect",
+              "failed": true
+            },
+            {
+              "title": "Close context",
+              "start": 652,
+              "end": 655,
+              "category": "pw:api"
+            }
+          ],
+          "network": [],
+          "console": []
+        }
+      },
+      "line": 62,
+      "column": 1,
+      "errorLocation": {
+        "file": "cart.spec.ts",
+        "column": 40,
+        "line": 63
+      }
+    },
+    {
+      "testId": "cart.spec.ts::always fails: missing button",
+      "title": "always fails: missing button",
+      "file": "cart.spec.ts",
+      "status": "skipped",
+      "duration": 0,
+      "retry": 0,
+      "outcome": "skipped",
+      "stabilityScore": {
+        "overall": 93,
+        "grade": "A"
+      },
+      "performanceTrend": "→ Skipped",
+      "suite": "cart.spec.ts",
+      "browser": "chromium",
+      "line": 66,
+      "column": 1
+    },
+    {
+      "testId": "cart.spec.ts::flaky: fails on the first attempt",
+      "title": "flaky: fails on the first attempt",
+      "file": "cart.spec.ts",
+      "status": "skipped",
+      "duration": 0,
+      "retry": 0,
+      "outcome": "skipped",
+      "stabilityScore": {
+        "overall": 93,
+        "grade": "A"
+      },
+      "performanceTrend": "→ Skipped",
+      "suite": "cart.spec.ts",
+      "browser": "chromium",
+      "line": 70,
+      "column": 1
+    },
+    {
+      "testId": "cart.spec.ts::flaky: passes on retry",
+      "title": "flaky: passes on retry",
+      "file": "cart.spec.ts",
+      "status": "skipped",
+      "duration": 0,
+      "retry": 0,
+      "outcome": "skipped",
+      "stabilityScore": {
+        "overall": 93,
+        "grade": "A"
+      },
+      "performanceTrend": "→ Skipped",
+      "suite": "cart.spec.ts",
+      "browser": "chromium",
+      "line": 74,
+      "column": 1
+    },
+    {
+      "testId": "cart.spec.ts::skipped: saved carts",
+      "title": "skipped: saved carts",
+      "file": "cart.spec.ts",
+      "status": "skipped",
+      "duration": 0,
+      "retry": 0,
+      "outcome": "skipped",
+      "stabilityScore": {
+        "overall": 93,
+        "grade": "A"
+      },
+      "performanceTrend": "→ Skipped",
+      "suite": "cart.spec.ts",
+      "browser": "chromium",
+      "line": 78,
+      "column": 6
+    }
+  ],
+  "failureClusters": [
+    {
+      "id": "dcb77da24ad0193d",
+      "errorType": "toHaveText on locator('#total') at cart.spec.ts:63",
+      "count": 1,
+      "testIds": [
+        "cart.spec.ts::always fails: wrong total"
+      ]
+    }
+  ],
+  "history": {
+    "runCount": 0,
+    "runs": [],
+    "summaries": []
+  },
+  "efficiency": {
+    "retryWaste": 1104,
+    "retryWasteByTest": [
+      {
+        "testId": "cart.spec.ts::always fails: wrong total",
+        "waste": 1104
+      }
+    ],
+    "retryWasteTrend": [
+      {
+        "runId": "run-1795359972271",
+        "retryWaste": 1104
+      }
+    ],
+    "testTime": 2320,
+    "longTail": [
+      {
+        "percent": 5,
+        "tests": 1,
+        "time": 1668,
+        "share": 0.719,
+        "testIds": [
+          "cart.spec.ts::always fails: wrong total"
+        ]
+      },
+      {
+        "percent": 10,
+        "tests": 1,
+        "time": 1668,
+        "share": 0.719,
+        "testIds": [
+          "cart.spec.ts::always fails: wrong total"
+        ]
+      }
+    ],
+    "setupGap": 196,
+    "workers": {
+      "span": 2993,
+      "utilisation": 0.775,
+      "slots": [
+        {
+          "slot": 0,
+          "attempts": 11,
+          "busy": 2320,
+          "idle": 673
+        }
+      ]
+    }
+  },
+  "environmentInsights": []
+}

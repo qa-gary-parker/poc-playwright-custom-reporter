@@ -1,6 +1,6 @@
 node_modules/
 test-results/
 playwright-report/
-smart-report*
+smart-report.html
 test-history.json
 video/out/
