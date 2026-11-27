@@ -46,3 +46,12 @@ npm run measure     # all scenarios; rewrites results/
 ```
 
 Every run exits with code 1, because 2 tests always fail.
+
+<!-- links:start -->
+## Links
+
+- Write-up: [Writing a Custom Playwright Reporter: 8 Failures From 2 Failing Tests](https://garyparker.dev/blog/writing-a-custom-playwright-reporter)
+- Video: [youtu.be/quOziw0tj-o](https://youtu.be/quOziw0tj-o)
+- More experiments: [garyparker.dev/measured](https://garyparker.dev/measured)
+- Newsletter: [garyparker.dev/newsletter](https://garyparker.dev/newsletter)
+<!-- links:end -->
